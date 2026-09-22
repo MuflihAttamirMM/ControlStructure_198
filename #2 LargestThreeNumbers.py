@@ -1,12 +1,16 @@
 a = int(input("Masukkan angka pertama: "))
 b = int(input("Masukkan angka kedua: "))
-c = (input("Masukkan angka ketiga: "))
+c = int(input("Masukkan angka ketiga: "))
 
-if a >= b and a >= c:
+if a > b and a > c: ##and dua kondisi harus terpenuhi
     largest = a
-elif b >= a and b >= c:
+    print("Angka terbesar adalah:", largest)
+elif b > a and b > c:
     largest = b
-else:
+    print("Angka terbesar adalah:", largest)
+elif c > a and c > b:
     largest = c
+    print("Angka terbesar adalah:", largest)
 
-print("Angka terbesar adalah:", largest)
+else:
+    print("Tidak Ada Mas")

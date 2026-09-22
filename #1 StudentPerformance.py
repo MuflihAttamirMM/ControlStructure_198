@@ -1,4 +1,4 @@
-performance = float(input("Masukkan nilai performance: "))
+performance = int(input("Masukkan nilai performance: "))
 
 if performance >= 90:
     print("Excellent Performance")
@@ -9,4 +9,4 @@ elif performance >= 70:
 elif performance >= 60:
     print ("Average performance")
 else:
-    print("Below Average performance")
+    print("woke belajar yang rajin boskuh")
